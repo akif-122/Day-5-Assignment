@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	background: skyblue;
+}
+
+content{
+	color: purple;
+	font-size: 20px;
+}
+
+content .heading{
+	margin: 50px;
+	color: #fff;
+	border: 5px solid purple;
+	padding: 30px;
+}
+
+
+
+content .heading  p{
+	color: red;
+}
+
+content #list{
+	margin: 50px;
+	padding: 30px;
+
+}
+
+content #list > ul{
+	margin: 10px;
+	color: black;
+}
+
+content #list > ul li:nth-child(3n){
+	color: blue;
+}
+
+
+content #list > ul:first-child{
+	color: blue;
+}
+
+
+content #list > ul:first-child > li:nth-child(3n){
+	color: red;
+}
